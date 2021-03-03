@@ -1,0 +1,523 @@
+/*FOR ALL CONTENT*/
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #111111;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.container-fluid {
+  padding: 0 25px 0 25px;
+}
+
+.content__title strong {
+  font-family: "Epilogue", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 38px;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.content__title strong span {
+  font-size: 30px;
+  color: rgba(184, 184, 184, 0.87);
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.Mwrap {
+  height: 100%;
+  width: 200% !important;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+
+.panel {
+  height: 100%;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/*AKHIR CONTENT*/
+
+/*DEBUGGING*/
+.borderku {
+  border: 1px solid red;
+}
+
+/*HEADER*/
+header {
+  margin-top: 80px;
+}
+
+.header__button {
+  text-transform: uppercase;
+  color: #e0e0e0;
+  position: absolute;
+  right: 0;
+  border: 2px solid transparent;
+  padding: 15px;
+  font-family: "Epilogue", sans-serif;
+  font-size: 15px;
+  margin-top: -5px;
+}
+
+.header__button:hover {
+  border: 2px solid #bb86fc;
+  border-radius: 3px;
+  color: #bb86fc;
+}
+
+/*HERO*/
+#hero {
+  font-family: "Epilogue", sans-serif;
+}
+
+.hero__heading {
+  margin-top: 240px;
+  font-size: 35px;
+  color: #a0a0a0;
+  font-weight: 400;
+}
+
+.hero__content h1 {
+  font-size: 55px;
+  line-height: 77px;
+  color: #e0e0e0;
+  font-weight: 700;
+}
+
+.hero__content p {
+  font-size: 25px;
+  line-height: 38px;
+  color: #a0a0a0;
+  font-weight: 200;
+}
+
+/*AKHIR HERO*/
+
+/*SERVICE*/
+#service {
+  margin-top: 140px;
+}
+
+.service__card h2 {
+  font-family: "Source Code Pro", monospace;
+  font-size: 18px;
+  line-height: 29px;
+  color: #fff;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+.service__card p {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: justify;
+}
+
+/*AKHIR SERVICE*/
+
+/*WORKING*/
+#working {
+  margin-top: 140px;
+}
+
+.project h2 a {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.project a:hover {
+  color: #bb86fc;
+}
+
+.project p a {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.project {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.project p {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  margin: 30px 0;
+  color: #acacac;
+}
+
+/*AKHIR WORKING*/
+
+/*PORTFOLIO*/
+#portfolio {
+  margin-top: 140px;
+}
+
+.card-title {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.87);
+  text-align: center;
+}
+
+.card-title:hover {
+  color: #bb86fc;
+}
+
+.portfolio__card:hover {
+  transform: translateY(-10px);
+  transition: all ease 0.3s;
+}
+
+.portfolio__card p {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.portfolio__card p a {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.portfolio__card p a:hover {
+  color: #bb86fc;
+}
+
+.portfolio__card--content {
+  background-color: #111111;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+/*AKHIR PORTFOLIO*/
+
+/* ABOUT */
+#about {
+  margin-top: 140px;
+}
+
+.about__maincontent p {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 32px;
+  color: rgba(255, 255, 255, 0.6);
+  padding-right: 30px;
+}
+
+.about__maincontent p span {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.about__maincontent p span:hover {
+  color: #bb86fc;
+}
+
+.about__sidebar p {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 200;
+  font-size: 20px;
+  line-height: 36px;
+  color: #fff;
+  padding-right: 30px;
+}
+
+.about__sidebar img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+}
+
+.about__sidebar h3 {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 26px;
+  color: #fff;
+}
+
+.about__sidebar h5 {
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.about__sidebar h5 span {
+  color: #fff;
+}
+
+.about__sidebar h5 span:hover {
+  color: #bb86fc;
+}
+
+/* AKHIR ABOUT */
+
+/* CONTACT */
+#contact {
+  margin-top: 140px;
+}
+
+.contact__aside {
+  font-family: "Epilogue", sans-serif;
+  margin-right: 80px;
+}
+
+.contact__aside i {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact__aside i:hover {
+  color: #bb86fc;
+  cursor: pointer;
+}
+
+.contact__aside h2 {
+  font-weight: 200;
+  font-size: 18px;
+  line-height: 27px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contact__aside h3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.87);
+  text-transform: uppercase;
+}
+
+.contact__aside p a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.contact__aside p a:hover {
+  color: #bb86fc;
+}
+
+form label {
+  font-family: "Source Code Pro", monospace;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.contact__form input,
+.contact__form textarea {
+  background-color: #111111;
+  color: rgba(255, 255, 255, 0.6);
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 13px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+}
+
+.contact__form textarea {
+  height: 100px;
+}
+
+.contact__form button {
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  width: 100%;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.contact__form button:hover {
+  color: #bb86fc;
+  border: 1px solid #bb86fc;
+}
+
+/* AKHIR CONTACT */
+
+/*FOOTER*/
+footer {
+  margin-top: 100px;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(255, 255, 255, 0.6);
+  min-height: 80px;
+}
+
+.footer__terms {
+  text-align: right;
+  padding-right: 50px;
+}
+
+.footer__terms a {
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.footer__terms a:hover {
+  color: #bb86fc;
+}
+
+/*AKHIR FOOTER*/
+
+/*RESPONSIVE*/
+/* DESKTOP */
+@media (min-width: 992px) {
+  .content__title--about {
+    margin-left: 150px;
+  }
+  .portfolio__card--content {
+    width: calc(100vw / 5);
+  }
+}
+
+/*HANDPHONE*/
+@media (max-width: 768px) {
+  .content__title strong {
+    font-size: 18px;
+  }
+
+  .content__title strong span {
+    font-size: 22px;
+  }
+
+  /*HEADER*/
+  header {
+    margin-top: 50px;
+  }
+
+  /*AKHIR HEADER*/
+
+  /*HERO*/
+
+  .hero__content h1 {
+    font-size: 35px;
+  }
+
+  /*AKHIR HERO*/
+
+  /*SERVICE*/
+  #service {
+    margin-top: 100px;
+  }
+
+  .content__card--system {
+    margin-top: -3px !important;
+  }
+
+  .service__card {
+    margin-top: 30px;
+  }
+
+  .service__card p {
+    font-size: 12px;
+    width: 95%;
+  }
+
+  .service__card h2 {
+    font-size: 15px;
+    line-height: 20px;
+    padding-left: 10px;
+  }
+
+  /*AKHIR SERVICE*/
+
+  /*WORKING*/
+  #working {
+    margin-top: 100px;
+  }
+
+  .project {
+    text-align: center;
+  }
+
+  /*AKHIR WORKING*/
+
+  /* PORTFOLIO */
+  .portfolio__card {
+    margin-top: 100px !important;
+  }
+
+  .portfolio__card--content {
+    display: inline;
+    width: calc(100vw / 5);
+    border: none;
+  }
+
+  /* AKHIR PORTFOLIO */
+
+  /* ABOUT */
+  #about {
+    margin-top: 100px;
+  }
+
+  .about__maincontent p {
+    font-size: 18px;
+    line-height: 29px;
+    padding-right: 0;
+  }
+
+  .about__sidebar p {
+    font-size: 18px;
+    line-height: 29px;
+    padding: 0 auto;
+    text-align: justify;
+  }
+
+  /* AKHIR ABOUT */
+
+  /* CONTACT */
+  #contact {
+    margin-top: 100px;
+  }
+
+  .footer__terms {
+    text-align: left;
+    padding-right: 0;
+  }
+
+  .contact__form {
+    margin-top: 50px;
+  }
+}
